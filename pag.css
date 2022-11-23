@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     padding: 10px;
+    
+}
+.logo img{
+    width: 200px;
+    height: 100px;
+}
+.lista{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+a:hover{
+    color: #0AE7E7;
+
+}
+.barra{
+    color: #0AE7E7;
+    padding: 15px;
+
+}
+
+section img{
+    width: 300px;
+    height: 300px;
+   
+}
+.jumbotron h1,h2, h4{
+background-color: #0AE7E7;
+color: white;
+}
+.jumbotron h4{
+    text-align: center;
+}
+.jumb2{
+    color: white;
+    background-color: #0AE7E7;
+    text-align: center;
+   
+}
+
+.jumb2 img{
+    margin: 15px;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 2%;
+    margin: 1%;
+
+}
+.jumb2 h2{
+    width: 100%;
+    text-align: center;
+}
+.jumb2 p{
+    margin-left: 5%;
+    margin-right: 5% ;
+}
+
+    
+.FP{
+    width: 100%;
+    height: 650px;
+
+}
+
+h1, h2{
+    text-align: center;
+    padding: 20px;
+    
+}
+.blog{
+
+    display: flex;
+    justify-content: space-around;
+}
+.fb{
+    background-color: #E7E7E7;
+}
+
+.fb h1{
+    width: 60%;
+    background-color: #0AE7E7;
+    color: white;
+}
+
+.blog h1{
+    width: 100%;
+    padding: 1%;
+}
+.BH img{
+    width: 200px;
+    height: 270px;
+    padding: 10px;
+}
+.BH{
+    background-color: white;
+    padding: 24px 16px;
+    box-shadow: 0px 8px 8px black;
+    border-radius: 2%;
+    margin: 1%;
+}
+
+.BH p{
+    color: black;
+    text-align: center;
+    
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+   text-align: center;
+    padding: 30px;
+    height: 20%;
+    
+   
+}
+
+th{
+    color: #E7E7E7;
+
+}
+
+td a img{
+    width: 20px;
+    height: 20px;
+    padding: 0%;
+}
+
+
+
+
