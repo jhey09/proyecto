@@ -153,6 +153,44 @@ td a img{
     padding: 0%;
 }
 
+.registro{
+    width: 40%;
+    background: #626262;
+    color: white;
+    padding: 3%;
+    margin: 2%;
+    border-radius: 5%;
+    box-shadow: 0px 8px 8px black;
+    
+   
+    }
+
+.formulario{
+    width: 60%; 
+    padding: 1%;
+    margin-bottom: 1%;
+}
+
+.registro h3{
+    font-size: 23px;
+    margin-bottom: 3%;
+    text-align: center;
+
+}
+
+.registro p{
+    font-size: 15px;
+}
+
+.botonR{
+    width: 30%;
+    font-size: 15px;
+    background-color:black;
+    border: white;
+    color: white;
+    padding: 2%;
+    
+}
 
 
 
