@@ -17,6 +17,23 @@ header{
      padding: 10px;
     
 }
+@media screen and (max-width: 480px){
+    header{
+        padding: 0%;
+        font-size: 50%;
+
+    }
+     header .logo img{
+        width: 50px;
+        padding: 3%;
+       
+    }
+    header nav .barradb{ 
+        width: 50;
+        margin: 5%;
+
+    }
+}
 
 .logo img{
     width: 70%;
@@ -25,13 +42,13 @@ header{
 .lista{
     display: flex;
     align-items: center;
-    padding: 15px;
+    padding: 0.9375rem;
 }
 
 a{
     text-decoration: none;
     color: white;
-    padding: 15px;
+    padding: 0.9375rem;
 }
 a:hover{
     color: #0AE7E7;
@@ -39,19 +56,19 @@ a:hover{
 }
 .barra{
     color: #0AE7E7;
-    padding: 15px;
+    padding: 0.9375rem;
 
 }
 
 section img{
-    width: 300px;
-    height: 300px;
+    width: 18.75rem;
+    height: 18.75rem;
    
 }
 
 h1, h2{
     text-align: center;
-    padding: 20px;
+    padding: 1.25rem;
     
 }
 .jumbotron h1,h2, h4{
@@ -61,6 +78,23 @@ color: white;
 .jumbotron h4{
     text-align: center;
 }
+
+@media screen and (max-width: 480px){
+    .jumbotron{
+
+        font-size: 0.9375rem;
+    }
+    .jumbotron .FP{
+        width: 90%;
+        height: 60%;
+        margin: 0.9375rem;
+    box-shadow: 0.3125rem 0.3125rem 0.3125rem black;
+    border-radius: 2%;
+    margin: 1%;
+    display: flex;
+    text-align: center;
+    }
+}
 .adicionales{
     color: white;
     background-color: #0AE7E7;
@@ -69,8 +103,8 @@ color: white;
 }
 
 .adicionales img{
-    margin: 15px;
-    box-shadow: 5px 5px 5px black;
+    margin: 0.9375rem;
+    box-shadow: 0.3125rem 0.3125rem 0.3125rem black;
     border-radius: 2%;
     margin: 1%;
 
@@ -84,20 +118,51 @@ color: white;
     text-align: center;
 
 }
+@media screen and (max-width: 480px){
+    .adicionales img{
+        width: 45%;
+        height: 40%;
+}
+    .adicionales .aggMedia{
+        display: flex
+    
+        
+    }
+
+
+}
 
     
 .FP{
     width: 100%;
-    height: 650px;
+    height: 40.625rem;
 
 }
 
 
 .blog{
 
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(4,25%);
 }
+
+@media screen and (max-width: 480px) {
+    .blog{
+        grid-template-columns: repeat(2,45%);
+       gap: 1rem;
+       
+    }
+    
+}
+@media screen and (max-width: 480px) {
+    .BH img{
+
+        width: 90%;
+        height: 70%;
+        justify-content: center;
+    }
+}
+
 .fb{
     background-color: #E7E7E7;
 }
@@ -113,14 +178,14 @@ color: white;
     padding: 1%;
 }
 .BH img{
-    width: 200px;
-    height: 270px;
-    padding: 10px;
+    width: 12.5rem;
+    height: 16.875rem;
+    padding: 0.625rem;
 }
 .BH{
     background-color: white;
-    padding: 24px 16px;
-    box-shadow: 0px 8px 8px black;
+    padding: 1.5rem 1rem;
+    box-shadow: 0rem 0.5rem 0.5rem black;
     border-radius: 2%;
     margin: 1%;
 }
@@ -136,7 +201,7 @@ footer{
     display: flex;
     justify-content: space-around;
    text-align: center;
-    padding: 30px;
+    padding: 1.875rem;
     height: 20%;
     
    
@@ -152,7 +217,9 @@ td a img{
     height: 20px;
     padding: 0%;
 }
+@media screen and (max-width: 480px){
 
+}
 .registro{
     width: 40%;
     background: #626262;
@@ -160,10 +227,16 @@ td a img{
     padding: 3%;
     margin: 2%;
     border-radius: 5%;
-    box-shadow: 0px 8px 8px black;
+    box-shadow: 0rem 0.5rem 0.5rem black;
     
    
     }
+@media screen and (max-width: 480px) {
+    .registro{
+        width: 80%;
+    }
+    
+}
 
 .formulario{
     width: 60%; 
@@ -172,25 +245,39 @@ td a img{
 }
 
 .registro h3{
-    font-size: 23px;
+    font-size: 1.4375rem;
     margin-bottom: 3%;
     text-align: center;
 
 }
 
 .registro p{
-    font-size: 15px;
+    font-size: 0.9375rem;
 }
 
 .botonR{
     width: 30%;
-    font-size: 15px;
+    font-size: 0.9375rem;
     background-color:black;
     border: white;
     color: white;
     padding: 2%;
     
 }
+
+@media screen and (max-width: 480px) {
+    footer img{
+        width: 2.5rem;
+        height: 2.5rem;
+        
+    }
+    footer table{
+        font-size: 10px;
+        margin: 0.3125rem;
+    }
+    
+}
+
 
 
 
