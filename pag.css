@@ -28,12 +28,31 @@ header{
         padding: 3%;
        
     }
-    header nav .barradb{ 
-        width: 50;
-        margin: 5%;
 
+     header .barra{
+        margin: 0%;
+        padding: 0%;
+    
+    }
+    header li{
+        font-size: 7px;
+        padding: 0%;
+        margin: 0%;
     }
 }
+@media screen and (max-width: 480px){
+    header .buscar #barraBuscar {
+        width: 2.5rem;
+        height: 1.25rem; 
+        
+    }
+    header .buscar #boto {
+        width: 20px;
+        height: 30px; 
+        
+    }
+}
+
 
 .logo img{
     width: 70%;
@@ -262,6 +281,10 @@ td a img{
     border: white;
     color: white;
     padding: 2%;
+    cursor: pointer;
+    border-radius: 7%;
+    box-shadow: 0rem 0.5rem 0.5rem black;
+
     
 }
 
